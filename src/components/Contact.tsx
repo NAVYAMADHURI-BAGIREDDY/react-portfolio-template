@@ -34,7 +34,7 @@ function Contact() {
             variant="outlined"
             color="secondary"
             startIcon={<EmailIcon />}
-            href="mailto:bagireddynavyamadhuri@gmail.com"
+            href="mailto:bnavyama@cougarnet.uh.edu"
           >
             Email Me
           </Button>

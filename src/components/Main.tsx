@@ -20,7 +20,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/navyamadhuri/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Navya Madhuri</h1>
-          <p>Full Stack Engineer</p>
+          <p>Transforming Data into Insights & Intelligent Solutions | Data Science • Machine Learning • AI • Full Stack Engineering</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/NAVYAMADHURI-BAGIREDDY" target="_blank" rel="noreferrer"><GitHubIcon/></a>

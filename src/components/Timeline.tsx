@@ -16,7 +16,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date=" Jan 2024- present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -26,18 +26,7 @@ function Timeline() {
               Full-stack Web Development, GenAI/LLM, Project Management, Business Development
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
-            </p>
-          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2021 - 2021"
