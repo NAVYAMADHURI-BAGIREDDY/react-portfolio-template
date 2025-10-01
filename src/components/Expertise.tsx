@@ -6,6 +6,20 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
+    "SQL",
+    "PostgreSQL",
+    "Snowflake",
+    "Databricks",
+    "Apache Spark",
+    "Hadoop",
+    "Kafka",
+    "Airflow",
+    "Python (Pandas, PySpark)",
+    "Power BI",
+    "Tableau"
+];
+
+const labelsSecond = [
     "React",
     "TypeScript",
     "JavaScript",
@@ -14,31 +28,27 @@ const labelsFirst = [
     "SASS",
     "Flask",
     "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
-];
-
-const labelsSecond = [
+    "Postman",
     "Git",
     "GitHub Actions",
     "Docker",
     "AWS",
     "Azure",
     "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Selenium"
 ];
 
 const labelsThird = [
     "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
     "Hugging Face",
+    "LangChain",
     "LlamaIndex",
+    "Groq",
+    "Qdrant",
     "Streamlit",
+    "Scikit-learn",
+    "TensorFlow",
+    "PyTorch"
 ];
 
 function Expertise() {
@@ -49,8 +59,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <h3>📊 Data Analytics & Data Engineering</h3>
+                    <p>I specialize in analyzing complex datasets, building ETL/ELT pipelines, and optimizing data workflows for scalable analytics. I have experience with SQL-based data processing, cloud data warehouses, and big data frameworks for distributed computing. My work spans data modeling, pipeline automation, and dashboard development for actionable insights.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -61,8 +71,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>Full Stack Web Development & DevOps</h3>
+                    <p>I build scalable web applications from scratch and ensure smooth deployment through DevOps practices. With strong proficiency in both frontend + backend development and CI/CD automation, I deliver production-ready solutions.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,8 +83,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>Machine Learning, Data Science & AI</h3>
+                    <p>I develop machine learning models and AI-driven applications, including enterprise-grade GenAI solutions. My work spans predictive modeling, natural language processing, and building intelligent systems that integrate with modern platforms..</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (

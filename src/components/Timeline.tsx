@@ -12,6 +12,17 @@ function Timeline() {
       <div className="items-container">
         <h1>Career History</h1>
         <VerticalTimeline>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date=" Jan 2024- Dec 2025"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Masters in Engineering Data science - CGPA:3.92</h3>
+            <h4 className="vertical-timeline-element-subtitle">University of Houston</h4>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
@@ -20,35 +31,35 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Graduate Research Assistant</h3>
+            <h4 className="vertical-timeline-element-subtitle">Houston,TX</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Full-stack Web Development,ETL pipelines,python,SQL,Tableau, Project Management, Business Development,Statistical Analysis
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="May 2024 - July 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Data science for energy transtition</h3>
+            <h4 className="vertical-timeline-element-subtitle">Houston,Tx - Apprenticeship</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+            AI, Machine Learning, Data Science, Statistics, Python, R, Tableau, Geoscience Applications, Climate Modeling, Policy Analysis, Full-stack Development, API Development, User Experience
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="September 2021 - December 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Analyst - Deloitte</h3>
+            <h4 className="vertical-timeline-element-subtitle"></h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
