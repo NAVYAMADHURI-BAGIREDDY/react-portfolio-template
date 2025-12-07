@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.navya-signature {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+
+
+  .navbar-fixed-top {
+    margin-top: 12px;
+  }
+  

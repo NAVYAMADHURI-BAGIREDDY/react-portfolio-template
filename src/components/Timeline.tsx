@@ -20,7 +20,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Masters in Engineering Data science - CGPA:3.92</h3>
+            <h2 className="vertical-timeline-element-title">Masters in Engineering Data science  CGPA - 3.92</h2>
             <h4 className="vertical-timeline-element-subtitle">University of Houston</h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -33,9 +33,7 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Graduate Research Assistant</h3>
             <h4 className="vertical-timeline-element-subtitle">Houston,TX</h4>
-            <p>
-              Full-stack Web Development,ETL pipelines,python,SQL,Tableau, Project Management, Business Development,Statistical Analysis
-            </p>
+
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -57,6 +55,19 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Analyst - Deloitte</h3>
+            <h4 className="vertical-timeline-element-subtitle"></h4>
+            <p>
+              
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="August 2018 - August 2022"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Bachelors in Electrical & Electronics Engineering 
+              <p>CGPA - 3.6</p></h3>
             <h4 className="vertical-timeline-element-subtitle"></h4>
             <p>
               

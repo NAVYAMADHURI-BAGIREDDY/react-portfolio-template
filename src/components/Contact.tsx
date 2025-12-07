@@ -34,10 +34,12 @@ function Contact() {
             variant="outlined"
             color="secondary"
             startIcon={<EmailIcon />}
-            href="mailto:bnavyama@cougarnet.uh.edu"
+            component="a"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=reddynavya1602@gmail.com&su=Hi%20Navya&body=Hello%20Navya%2C%0A%0A"
           >
-            Email Me
+            Email
           </Button>
+
         </Stack>
       </Box>
     </section>

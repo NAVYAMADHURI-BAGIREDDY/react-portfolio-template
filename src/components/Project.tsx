@@ -1,14 +1,15 @@
 import React from "react";
+
 import mock01 from '../assets/images/mock01.png';
 import mock02 from '../assets/images/mock02.png';
 import mock03 from '../assets/images/mock03.png';
 import mock04 from '../assets/images/mock04.png';
 import mock05 from '../assets/images/mock05.png';
 import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import mock07 from '../assets/images/datawarehouse.png';
+import mock08 from '../assets/images/Screenshot 2025-12-06 at 5.28.37 PM.png';
+import mock09 from '../assets/images/timeprediction.png';
+import mock10 from '../assets/images/tomato.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -17,24 +18,28 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://github.com/NAVYAMADHURI-BAGIREDDY/TOMATO-FOOD-ORDER-master" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/NAVYAMADHURI-BAGIREDDY/TOMATO-FOOD-ORDER-master" target="_blank" rel="noreferrer"><h2>Tomato Food Order</h2></a>
+                <h4>React • Node.js • Express.js • MongoDB • Vite • REST API</h4>
+                <p>Full-stack food ordering app with React UI, Node/Express backend, and MongoDB storage. Features authentication, dynamic menus, and modular API architecture.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://github.com/NAVYAMADHURI-BAGIREDDY/Datascienceproject-withdeployment" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.linkedin.com/posts/folioworks_entrylevel-newgraduate-firstjob-activity-7393739232726548482-O7xZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACtN0R4B8_iGf5eRvM8EacfL8u3bOmqi9vk" target="_blank" rel="noreferrer"><h2>Delivery Time prediction  with deployment</h2></a>
+                <h4>Python • Scikit-learn • Pandas • NumPy • YAML • Logging • Flask </h4>
+                <p>End-to-end ML pipeline for automated data ingestion, preprocessing, model training, and prediction. Trained and evaluated Linear Regression, Decision Tree, Random Forest, and Gradient Boosting models to select the best-performing regressor</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://github.com/NAVYAMADHURI-BAGIREDDY/AZUREDataFactory-NYCEnd2EndProject" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/NAVYAMADHURI-BAGIREDDY/AZUREDataFactory-NYCEnd2EndProject" target="_blank" rel="noreferrer"><h2>AZURE Data Engineering Project</h2></a>
+                <h4>Azure Data Factory • Azure Data Lake • Azure Databricks • PySpark • ETL Pipelines • Power BI</h4>
+                <p>Built a cloud-based ETL pipeline using Azure services to ingest NYC dataset from a web source, store it in Azure Data Lake, transform and clean the data in Azure Data Factory and Databricks, and deliver analytics dashboards for insights.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://github.com/NAVYAMADHURI-BAGIREDDY/SQL-Datawarehouse-Project" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/NAVYAMADHURI-BAGIREDDY/SQL-Datawarehouse-Project" target="_blank" rel="noreferrer"><h2>SQL Dataware House & Analytics Project</h2></a>
+                <h4>SQL Server • ETL • Data Modeling • Medallion Architecture • Star Schema • SQL • Reporting & Analytics</h4>
+                <p>Designed and implemented a modern data warehouse using Medallion Architecture. Raw ERP and CRM data is ingested into SQL Server (Bronze), cleansed and standardized (Silver), and transformed into a business-ready star schema (Gold). Built ETL pipelines, resolved data quality issues, and created analytical SQL reports to deliver insights on customers, products, and sales.</p>
             </div>
             <div className="project">
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
