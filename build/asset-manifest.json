@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/css/main.ae369077.css",
-    "main.js": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/js/main.2dd90037.js",
+    "main.css": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/css/main.459ce982.css",
+    "main.js": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/js/main.8c804969.js",
     "static/js/453.b05d8aa5.chunk.js": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/js/453.b05d8aa5.chunk.js",
-    "static/media/mock10.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/mock10.2d05b02ba569a430a255.png",
-    "static/media/mock09.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/mock09.e18677ccfc932e52d754.png",
-    "static/media/mock08.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/mock08.13f46873fdbd382f4b76.png",
-    "static/media/mock04.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/mock04.f7b5679efade992a078c.png",
+    "static/media/tomato.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/tomato.71b3366d8ed9f0826fc6.png",
+    "static/media/Navya.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/Navya.638387140473f2a2f27a.png",
+    "static/media/timeprediction.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/timeprediction.c3cc5ebbcd88d520554f.png",
+    "static/media/Screenshot 2025-12-06 at 5.28.37 PM.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/Screenshot 2025-12-06 at 5.28.37 PM.a4ef7a60062e5d20ca99.png",
     "static/media/bg-light.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/mock07.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/mock07.3f1110f482232b33c6a2.png",
-    "static/media/mock05.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/mock05.4faafa70d200d1519a34.png",
-    "static/media/mock06.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/mock06.ea816617e0d0fa0f63ca.png",
+    "static/media/health.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/health.c3559fc4d4b026846246.png",
+    "static/media/multimodal.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/multimodal.ff8f9b6beada5bc299cb.png",
     "static/media/bg-dark.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/mock01.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/mock01.61bd486a54bf6e17ee5a.png",
-    "static/media/mock02.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/mock02.bced48ae9cdda3acf1a3.png",
-    "static/media/mock03.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/mock03.a4600719e0b5d2a3155b.png",
+    "static/media/salesdashboard.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/salesdashboard.47b341adb003de9216bf.png",
+    "static/media/google search engine.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/google search engine.14963a9e49e82a2d087c.png",
+    "static/media/datawarehouse.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/datawarehouse.9e20384923a3c044b4b5.png",
     "index.html": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/index.html",
-    "main.ae369077.css.map": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/css/main.ae369077.css.map",
-    "main.2dd90037.js.map": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/js/main.2dd90037.js.map",
+    "main.459ce982.css.map": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/css/main.459ce982.css.map",
+    "main.8c804969.js.map": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/js/main.8c804969.js.map",
     "453.b05d8aa5.chunk.js.map": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae369077.css",
-    "static/js/main.2dd90037.js"
+    "static/css/main.459ce982.css",
+    "static/js/main.8c804969.js"
   ]
 }

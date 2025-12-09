@@ -60,7 +60,7 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Analyst - Deloitte</h3>
             <p>Java, J2EE, HTML/CSS/JavaScript, AWS, Oracle, MySQL, REST/SOAP Services, JUnit, Git, Agile</p>
-            <h4 className="vertical-timeline-element-subtitle"></h4>
+            
             <p>
               
             </p>
@@ -74,7 +74,7 @@ function Timeline() {
             <h4 className="vertical-timeline-element-title">Bachelors in Electrical & Electronics Engineering,CGPA - 3.8 
               </h4>
               <p>C,C++,Python,Java,Full stack web development,Data structures</p>
-            <h4 className="vertical-timeline-element-subtitle"></h4>
+            
             <p>
               
             </p>

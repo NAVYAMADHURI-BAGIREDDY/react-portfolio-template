@@ -1,7 +1,5 @@
 import React from "react";
 
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
 import mock03 from '../assets/images/google search engine.png';
 import mock04 from '../assets/images/multimodal.png';
 import mock05 from '../assets/images/salesdashboard.png';
@@ -18,17 +16,61 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
         <div className="project">
-                <a  target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a  target="_blank" rel="noreferrer"><h2>Multi-modal AI Guardian</h2></a>
-                <h4>Artificial Intelligence, Machine Learning, NLP , Deep Learning , Gen AI , Web development</h4>
-                <p>Full-scope AI system combining image classification, ad-content validation, conversational chatbot integration, OCR and speech-to-text processing, and spam-detection models. Built to analyze images, authenticate advertising content, support multi-turn user queries, convert visual/audio data into readable text, and filter email/SMS threats using machine-learning pipelines.</p>
+            <button
+                type="button"
+                className="project-btn"
+                onClick={() => console.log("Multi-modal AI Guardian clicked")}
+            >
+                <img src={mock04} className="zoom" alt="thumbnail" width="100%" />
+            </button>
+
+            <button
+                type="button"
+                className="project-btn title-btn"
+                onClick={() => console.log("Multi-modal AI Guardian clicked")}
+            >
+                <h2>Multi-modal AI Guardian</h2>
+            </button>
+
+            <h4>Artificial Intelligence, Machine Learning, NLP, Deep Learning, Gen AI, Web Development</h4>
+            <p>
+                Full-scope AI system combining image classification, ad-content validation,
+                conversational chatbot integration, OCR and speech-to-text processing, and
+                spam-detection models. Built to analyze images, authenticate advertising content,
+                support multi-turn user queries, convert visual/audio data into readable text,
+                and filter email/SMS threats using machine-learning pipelines.
+            </p>
             </div>
+
+
             <div className="project">
-                <a  target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a  target="_blank" rel="noreferrer"><h2>Google Search Engine</h2></a>
-                <h4>Artificial Intelligence, Machine Learning , NLP ,Gen AI ,Web Development</h4>
-                <p>Custom search engine built using the Google Custom Search API, enhanced with NLP preprocessing, GenAI summarization, and machine-learning–based ranking. The system analyzes query intent, retrieves and restructures search results, generates concise natural-language summaries, and improves relevance through behavioral ranking metrics. MongoDB is used to store queries, results, and user interaction data for continuous optimization.</p>
+            <button
+                type="button"
+                className="project-btn"
+                onClick={() => console.log("Google Search Engine clicked")}
+            >
+                <img src={mock03} className="zoom" alt="thumbnail" width="100%" />
+            </button>
+
+            <button
+                type="button"
+                className="project-btn title-btn"
+                onClick={() => console.log("Google Search Engine clicked")}
+            >
+                <h2>Google Search Engine</h2>
+            </button>
+
+            <h4>Artificial Intelligence, Machine Learning, NLP, Gen AI, Web Development</h4>
+            <p>
+                Custom search engine built using the Google Custom Search API, enhanced with NLP
+                preprocessing, GenAI summarization, and machine-learning–based ranking.
+                The system analyzes query intent, retrieves and restructures search results,
+                generates concise natural-language summaries, and improves relevance through
+                behavioral ranking metrics. MongoDB is used to store queries, results, and user
+                interaction data for continuous optimization.
+            </p>
             </div>
+
             <div className="project">
                 <a href="https://github.com/NAVYAMADHURI-BAGIREDDY/TOMATO-FOOD-ORDER-master" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/NAVYAMADHURI-BAGIREDDY/TOMATO-FOOD-ORDER-master" target="_blank" rel="noreferrer"><h2>Tomato Food Order</h2></a>
