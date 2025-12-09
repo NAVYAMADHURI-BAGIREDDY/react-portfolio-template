@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/css/main.459ce982.css",
-    "main.js": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/js/main.8c804969.js",
-    "static/js/453.b05d8aa5.chunk.js": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/js/453.b05d8aa5.chunk.js",
-    "static/media/tomato.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/tomato.71b3366d8ed9f0826fc6.png",
-    "static/media/Navya.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/Navya.638387140473f2a2f27a.png",
-    "static/media/timeprediction.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/timeprediction.c3cc5ebbcd88d520554f.png",
-    "static/media/Screenshot 2025-12-06 at 5.28.37 PM.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/Screenshot 2025-12-06 at 5.28.37 PM.a4ef7a60062e5d20ca99.png",
-    "static/media/bg-light.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/health.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/health.c3559fc4d4b026846246.png",
-    "static/media/multimodal.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/multimodal.ff8f9b6beada5bc299cb.png",
-    "static/media/bg-dark.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/salesdashboard.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/salesdashboard.47b341adb003de9216bf.png",
-    "static/media/google search engine.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/google search engine.14963a9e49e82a2d087c.png",
-    "static/media/datawarehouse.png": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/media/datawarehouse.9e20384923a3c044b4b5.png",
-    "index.html": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/index.html",
-    "main.459ce982.css.map": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/css/main.459ce982.css.map",
-    "main.8c804969.js.map": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/js/main.8c804969.js.map",
-    "453.b05d8aa5.chunk.js.map": "/NAVYAMADHURI-BAGIREDDY/react-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
+    "main.css": "/react-portfolio-template/static/css/main.e147b953.css",
+    "main.js": "/react-portfolio-template/static/js/main.051b7073.js",
+    "static/js/453.b05d8aa5.chunk.js": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js",
+    "static/media/tomato.png": "/react-portfolio-template/static/media/tomato.71b3366d8ed9f0826fc6.png",
+    "static/media/Navya.png": "/react-portfolio-template/static/media/Navya.638387140473f2a2f27a.png",
+    "static/media/timeprediction.png": "/react-portfolio-template/static/media/timeprediction.c3cc5ebbcd88d520554f.png",
+    "static/media/Screenshot 2025-12-06 at 5.28.37 PM.png": "/react-portfolio-template/static/media/Screenshot 2025-12-06 at 5.28.37 PM.a4ef7a60062e5d20ca99.png",
+    "static/media/bg-light.png": "/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/health.png": "/react-portfolio-template/static/media/health.c3559fc4d4b026846246.png",
+    "static/media/multimodal.png": "/react-portfolio-template/static/media/multimodal.ff8f9b6beada5bc299cb.png",
+    "static/media/bg-dark.png": "/react-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/salesdashboard.png": "/react-portfolio-template/static/media/salesdashboard.47b341adb003de9216bf.png",
+    "static/media/google search engine.png": "/react-portfolio-template/static/media/google search engine.14963a9e49e82a2d087c.png",
+    "static/media/datawarehouse.png": "/react-portfolio-template/static/media/datawarehouse.9e20384923a3c044b4b5.png",
+    "index.html": "/react-portfolio-template/index.html",
+    "main.e147b953.css.map": "/react-portfolio-template/static/css/main.e147b953.css.map",
+    "main.051b7073.js.map": "/react-portfolio-template/static/js/main.051b7073.js.map",
+    "453.b05d8aa5.chunk.js.map": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.459ce982.css",
-    "static/js/main.8c804969.js"
+    "static/css/main.e147b953.css",
+    "static/js/main.051b7073.js"
   ]
 }
