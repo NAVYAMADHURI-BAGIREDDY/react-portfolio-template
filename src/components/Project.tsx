@@ -2,8 +2,8 @@ import React from "react";
 
 import mock01 from '../assets/images/mock01.png';
 import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
+import mock03 from '../assets/images/google search engine.png';
+import mock04 from '../assets/images/multimodal.png';
 import mock05 from '../assets/images/salesdashboard.png';
 import mock06 from '../assets/images/health.png';
 import mock07 from '../assets/images/datawarehouse.png';
@@ -17,6 +17,18 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
+        <div className="project">
+                <a  target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a  target="_blank" rel="noreferrer"><h2>Multi-modal AI Guardian</h2></a>
+                <h4>Artificial Intelligence, Machine Learning, NLP , Deep Learning , Gen AI , Web development</h4>
+                <p>Full-scope AI system combining image classification, ad-content validation, conversational chatbot integration, OCR and speech-to-text processing, and spam-detection models. Built to analyze images, authenticate advertising content, support multi-turn user queries, convert visual/audio data into readable text, and filter email/SMS threats using machine-learning pipelines.</p>
+            </div>
+            <div className="project">
+                <a  target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a  target="_blank" rel="noreferrer"><h2>Google Search Engine</h2></a>
+                <h4>Artificial Intelligence, Machine Learning , NLP ,Gen AI ,Web Development</h4>
+                <p>Custom search engine built using the Google Custom Search API, enhanced with NLP preprocessing, GenAI summarization, and machine-learning–based ranking. The system analyzes query intent, retrieves and restructures search results, generates concise natural-language summaries, and improves relevance through behavioral ranking metrics. MongoDB is used to store queries, results, and user interaction data for continuous optimization.</p>
+            </div>
             <div className="project">
                 <a href="https://github.com/NAVYAMADHURI-BAGIREDDY/TOMATO-FOOD-ORDER-master" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/NAVYAMADHURI-BAGIREDDY/TOMATO-FOOD-ORDER-master" target="_blank" rel="noreferrer"><h2>Tomato Food Order</h2></a>
@@ -54,26 +66,7 @@ function Project() {
                 <h4>Tableau • Excel/CSV • Data Modeling • Calculated Fields • Data Cleaning • KPI Analytics</h4>
                 <p>Interactive dashboard analyzing global sales, profit, and quantity trends across EU and Non-EU markets. Includes KPI tracking, subcategory performance analysis, and time-series trends to identify growth opportunities, low-performing segments, and overall business health.</p>
             </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
-            </div>
+            
         </div>
     </div>
     );

@@ -20,8 +20,11 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h2 className="vertical-timeline-element-title">Masters in Engineering Data science  CGPA - 3.92</h2>
-            <h4 className="vertical-timeline-element-subtitle">University of Houston</h4>
+            <h4 className="vertical-timeline-element-title">Masters in Engineering Data science  CGPA - 3.92,University of Houston</h4>
+            <p>Python, R, Machine Learning, Deep Learning, NLP, Data Analysis, SQL, Cloud Computing, Tableau, Git</p>
+
+            
+            <></>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -31,8 +34,9 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Graduate Research Assistant</h3>
+            <h4 className="vertical-timeline-element-title">Graduate Research Assistant</h4>
             <h4 className="vertical-timeline-element-subtitle">Houston,TX</h4>
+            <p>ReactJS, Java, Spring Boot, Microservices, REST APIs, AWS, Docker, Jenkins, PostgreSQL, Data Pipelines</p>
 
           </VerticalTimelineElement>
 
@@ -42,7 +46,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data science for energy transtition</h3>
+            <h4 className="vertical-timeline-element-title">Data science for energy transtition</h4>
             <h4 className="vertical-timeline-element-subtitle">Houston,Tx - Apprenticeship</h4>
             <p>
             AI, Machine Learning, Data Science, Statistics, Python, R, Tableau, Geoscience Applications, Climate Modeling, Policy Analysis, Full-stack Development, API Development, User Experience
@@ -55,6 +59,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Analyst - Deloitte</h3>
+            <p>Java, J2EE, HTML/CSS/JavaScript, AWS, Oracle, MySQL, REST/SOAP Services, JUnit, Git, Agile</p>
             <h4 className="vertical-timeline-element-subtitle"></h4>
             <p>
               
@@ -66,8 +71,9 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Bachelors in Electrical & Electronics Engineering 
-              <p>CGPA - 3.6</p></h3>
+            <h4 className="vertical-timeline-element-title">Bachelors in Electrical & Electronics Engineering,CGPA - 3.8 
+              </h4>
+              <p>C,C++,Python,Java,Full stack web development,Data structures</p>
             <h4 className="vertical-timeline-element-subtitle"></h4>
             <p>
               
