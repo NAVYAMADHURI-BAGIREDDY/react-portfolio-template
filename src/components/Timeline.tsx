@@ -21,7 +21,7 @@ function Timeline() {
             <h4 className="vertical-timeline-element-title">Institute Effectiveness and Research</h4>
             <h4 className="vertical-timeline-element-subtitle">Houston,Tx</h4>
             <p>
-            AI, Machine Learning, Data Science, Statistics, Python, R, Tableau, Geoscience Applications, Climate Modeling, Policy Analysis, Full-stack Development, API Development, User Experience
+            AI, Machine Learning, Data Science, Statistics, Python, R, Tableau, Full-stack Development, API Development, User Experience
             </p>
           </VerticalTimelineElement>
         <VerticalTimelineElement
