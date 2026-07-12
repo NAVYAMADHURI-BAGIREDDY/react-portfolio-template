@@ -23,7 +23,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/navyamadhuri/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           {/* NEW HEADING */}
-          <h2 className="about-title">Full stack AI engineer | Data scientist | Data Engineer | Data Analyst</h2>
+          <h2 className="about-title">Full stack AI engineer | Data Engineer | Data Analyst</h2>
           {/* NEW ABOUT TEXT */}
           <p className="about-text">
           I build AI-driven, cloud-ready web experiences and have a habit of refining things until they’re so simple anyone could use them. I learn fast, dive deep, and enjoy solving problems that keep most people up at night. If you like thoughtful engineering with a bit of personality, you’ll feel right at home here.

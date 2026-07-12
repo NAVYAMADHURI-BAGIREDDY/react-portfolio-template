@@ -14,6 +14,18 @@ function Timeline() {
         <VerticalTimeline>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="Jan 2026 - Present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h4 className="vertical-timeline-element-title">Institute Effectiveness and Research</h4>
+            <h4 className="vertical-timeline-element-subtitle">Houston,Tx</h4>
+            <p>
+            AI, Machine Learning, Data Science, Statistics, Python, R, Tableau, Geoscience Applications, Climate Modeling, Policy Analysis, Full-stack Development, API Development, User Experience
+            </p>
+          </VerticalTimelineElement>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date=" Jan 2024- Dec 2025"
@@ -30,13 +42,13 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date=" Jan 2024- present"
+            date=" Jan 2024- Dec 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h4 className="vertical-timeline-element-title">Graduate Research Assistant</h4>
+            <h4 className="vertical-timeline-element-title">Data Engineer</h4>
             <h4 className="vertical-timeline-element-subtitle">Houston,TX</h4>
-            <p>ReactJS, Java, Spring Boot, Microservices, REST APIs, AWS, Docker, Jenkins, PostgreSQL, Data Pipelines</p>
+            <p>ETL pipelines,Automation</p>
 
           </VerticalTimelineElement>
 
@@ -59,7 +71,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Analyst - Deloitte</h3>
-            <p>Java, J2EE, HTML/CSS/JavaScript, AWS, Oracle, MySQL, REST/SOAP Services, JUnit, Git, Agile</p>
+            <p>Azure,Databricks,Java, J2EE,Bitbucket,HTML/CSS/JavaScript, AWS, Oracle, MySQL, REST/SOAP Services, JUnit, Git, Agile</p>
             
             <p>
               
