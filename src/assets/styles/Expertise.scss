@@ -1,85 +1,129 @@
-.skills-container {
-    padding: 5% 10%;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
 
-    svg {
-        color: white;
-    }
+.skills-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 24px;
+    box-sizing: border-box;
 }
-  
-.skills-container .skills-grid {
+
+.expertise-heading {
+    margin-bottom: 36px;
+}
+
+.expertise-eyebrow {
+    display: block;
+    margin-bottom: 10px;
+    color: #a78bfa;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.expertise-heading h1 {
+    margin: 0 0 12px;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+}
+
+.expertise-heading > p {
+    max-width: 720px;
+    margin: 0;
+    line-height: 1.7;
+    opacity: 0.8;
+}
+
+.skills-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    align-items: stretch;
 }
-  
-.skills-container .skills-grid .skill {
-    align-items: center;
-    text-align: left;
+
+.skill {
+    min-width: 0;
+    padding: 28px;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    border-radius: 16px;
+    background: rgba(148, 163, 184, 0.035);
+    transition: border-color 0.2s ease,
+                transform 0.2s ease;
 }
-  
-.chip {
-    color: rgb(39, 40, 34) !important;
-    background-color: white !important;
-    font-size: 0.8rem !important;
-    height: 25px !important;
-  
-    span {
-        font-family: 'Courier Prime', monospace;
-        color: rgb(39, 40, 34);
-    }
-  
-    svg {
-        height: 15px !important;
-    }
+
+.skill:hover {
+    border-color: rgba(167, 139, 250, 0.65);
+    transform: translateY(-3px);
+}
+
+.skill-icon {
+    margin-bottom: 22px;
+    color: #a78bfa;
+}
+
+.skill h3 {
+    margin: 0 0 14px;
+    font-size: 1.25rem;
+    line-height: 1.45;
+}
+
+.skill > p {
+    margin: 0 0 24px;
+    line-height: 1.75;
+    opacity: 0.85;
 }
 
 .flex-chips {
-    line-height: 2;
-    margin: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
 
-    .chip-title {
-        color: white;
-        padding-right: 10px;
+.chip-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.chip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.chip.MuiChip-root {
+    max-width: 100%;
+    height: auto;
+    padding: 3px 0;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    border-radius: 7px;
+    background: rgba(148, 163, 184, 0.08);
+    color: inherit;
+    font-family: inherit;
+}
+
+.chip .MuiChip-label {
+    padding: 4px 10px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 900px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill {
+        padding: 24px;
     }
 }
 
-.flex-chips .MuiChip-root {
-    margin-right: 0.5em;
-}
-
-.flex-chips .MuiChip-outlined {
-    background-color: #e0e0e0;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
-}
-
-.flex-chips .MuiChip-outlined span {
-    color: rgb(39, 40, 34);
-}
-
-@media screen {
-    @media (max-width: 768px) {
-        .skills-container {
-            display: block;
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-    
-        .skills-container .skills-grid {
-            display: initial;
-        }
-        
-        .skills-container .skills-grid .skill {
-            padding-bottom: 5%;
-        }
+@media (max-width: 600px) {
+    .skills-container {
+        padding: 28px 16px;
     }
 
-    @media (max-width: 567px) {
-        .skills {
-            font-size: 12px;
-        }
+    .skill {
+        padding: 20px;
     }
 }
