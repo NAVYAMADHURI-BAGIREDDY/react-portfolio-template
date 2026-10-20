@@ -18,8 +18,8 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h4 className="vertical-timeline-element-title">Institute Effectiveness and Research</h4>
-            <h4 className="vertical-timeline-element-subtitle">Ashburn,VA</h4>
+            <h4 className="vertical-timeline-element-title">Bank of America</h4>
+           
             <p>
             
             </p>
@@ -32,8 +32,8 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h4 className="vertical-timeline-element-title">Masters in Engineering Data science  CGPA - 3.92,University of Houston</h4>
-            
+            <h4 className="vertical-timeline-element-title">Masters -  Engineering Data science</h4>
+
             
             <></>
           </VerticalTimelineElement>
@@ -43,8 +43,8 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Analyst - Deloitte</h3>
-            
+            <h4 className="vertical-timeline-element-title">Deloitte</h4>
+          
 
             <p>
               

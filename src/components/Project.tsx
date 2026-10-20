@@ -1,5 +1,4 @@
 import React from "react";
-
 import mock03 from '../assets/images/google search engine.png';
 import mock04 from '../assets/images/multimodal.png';
 import mock05 from '../assets/images/salesdashboard.png';

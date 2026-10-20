@@ -26,7 +26,8 @@ function Main() {
           <h2 className="about-title">Full stack Data Engineer </h2>
           {/* NEW ABOUT TEXT */}
           <p className="about-text">
-          I build AI-driven, cloud-ready web experiences and have a habit of refining things until they’re so simple anyone could use them. I learn fast, dive deep, and enjoy solving problems that keep most people up at night. If you like thoughtful engineering with a bit of personality, you’ll feel right at home here.
+          I build scalable data pipelines and cloud-based data solutions using Python, SQL, Spark, Azure, and AWS. 
+          My experience spans ETL development, big data processing, data warehousing, and analytics. I enjoy turning complex data into reliable, high-quality solutions that help businesses make better decisions.
           </p>
 
           <div className="mobile_social_icons">
